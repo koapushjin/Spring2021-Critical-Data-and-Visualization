@@ -1,0 +1,40 @@
+body{
+  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  color: #005f6f;
+  /* display: flex; */
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 2.5%;
+}
+
+h3 {
+  color: white;
+  /* display: flex; */
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+span{
+  color: #005f6f;
+  font-family: Orbitron;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#viz{
+  background-color: lightblue;
+  margin-top: 0;
+  height:100%;
+  width: 100%;
+}

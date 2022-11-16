@@ -1,0 +1,300 @@
+body {
+  margin:0;
+  font-family: sans-serif;
+  background-color: #202227;
+}
+
+
+/*
+it makes sense for the sticky element
+to take the full height and width (see below).
+If it should appear smaller, I would recommend
+to still keep the sticky box full height and width
+but to position a smaller, visible div within it.
+"top" makes it stick to the top
+"z-index" makes sure it's behind the scrolling elements
+"position" makes it stick as long as its containing
+element is scrolling up (there is not magic to stickiness!)
+*/
+.stickyDiv {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: -1;
+  position: sticky;
+
+  /* ps you can even make this div a flexbox to position elements inside it */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 30vw; */
+}
+
+.stickyDiv #vizContainer1 {
+  margin-left: 27vw;
+}
+
+
+
+#page1{
+  /* width: 40vw; */
+  height:100vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -100vh;
+  padding: 10px;
+  padding-top: 0px;
+  /* background-color: lightyellow; */
+  margin-bottom:10px;
+  display: flex;
+  /* float:left; */
+}
+
+#page1 .column1{
+  width: 30vw;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 50px;
+}
+
+.title{
+  align-content: center;
+  /* width: 30vw; */
+  height: 100vh;
+}
+
+#page1 .column2{
+  margin-top: 20px;
+  width: 63vw;
+}
+
+.intro{
+  text-indent:50px;
+  width:60vw;
+  height: 40vh;
+  padding-top: 25px;
+  /* background-color: pink; */
+  /* white-space:nowrap; */
+}
+
+.inputbox{
+  width: 60vw;
+  height: 60vh;
+  margin-left: 5vw;
+  /* background-color: lightblue; */
+}
+
+/* .inputT{
+  text-indent:40px;
+} */
+
+/* .intro{
+  float: right;
+  height: 50vh;
+}
+.inputbox{
+  float: right;
+  height: 50vh;
+} */
+
+#page2{
+  width: 30vw;
+  height: 100vh;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding: 15px;
+  /* background-color: lightgreen; */
+  margin-bottom: 10px;
+}
+
+#page3{
+  width: 30vw;
+  height: 100vh;
+  margin-left: 30px;
+  padding: 15px;
+  padding-left: 20px;
+  /* background-color: #fffdf6; */
+  margin-bottom: 10px;
+}
+
+
+.stickyDiv #vizContainer2 {
+  margin-left: -34vw;
+}
+
+
+#page4{
+  width: 30vw;
+  height: 100vh;
+  margin-left: 65%;
+  margin-top: -100vh;
+  padding: 10px;
+  /* background-color: lightyellow; */
+  margin-bottom: 10px;
+  /* display:flex */
+
+}
+
+#page5{
+  display: flex;
+  /* width: 90vw; */
+  height: 100vh;
+  margin-left: 0px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+#page5 .left{
+  width: 28%;
+  padding-top: 70px;
+  padding-left: 20px;
+}
+#page5 .middle{
+  width: 21%;
+  padding-top: 0px;
+}
+#page5 .right{
+  width: 50%;
+  padding-top: 30px;
+  padding-right: 50px;
+}
+#page5 div.middle{
+  flex-direction: column;
+}
+#page5 div.middle div{
+  flex-grow: 1
+}
+#page5 div.right{
+  flex-direction: column;
+}
+#page5 div.right div{
+  flex-grow: 1;
+}
+#page5 .row{
+  height: 25%;
+  padding-top: 50px;
+}
+/*
+#middle{
+  padding-top: 50px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.text{
+  margin-top: 15vh;
+  width: 30vw;
+  color: #fffdf6;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+p{
+  margin-top: 0;
+  font-family: 'Oswald', sans-serif;
+  color: #fffdf6;
+  font-size: 25px;
+
+}
+.buttonIns{
+  color:grey
+}
+.pureText{
+  font-size: 20px;
+  /* color: #fffdf6; */
+}
+
+h1{
+  font-size: 90px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #fffdf6;
+  /* color:#ffe5b9; */
+  /* text-indent:15px; */
+  /* font-family: 'Unlock', cursive; */
+  /* font-family: 'Monoton', cursive; */
+}
+
+h2{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 50px;
+  margin-bottom: 40px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color:#fffdf6;
+  /* text-indent:15px; */
+  color: #fffdf6
+}
+
+#sleep{
+  color:#d68060
+}
+#exercise{
+  color:#e1bc91;
+}
+#problems{
+  /* color:#8bcdcd; */
+  color:#a8dda8;
+}
+
+h3{
+  font-size: 35px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #fffdf6;
+  text-align: right;
+}
+
+h4{
+  font-size: 40px;
+  font-family: 'Cabin Sketch', cursive;
+  color: #fffdf6;
+
+}
+
+
+/* .scrollingContent div:last-child{
+  margin-bottom: 0px;
+} */
+
+
+/* everything below is just styling for this particular example
+it can all be changed
+be experimental
+be playful
+be wild
+:)  */
+
+
+/* .header{
+  height: 50vh;
+} */
+/* .lightblue{
+  background-color: lightblue;
+}
+
+.lightpink{
+  background-color: lightpink;
+}
+.lightgreen{
+  background-color: lightgreen;
+}
+.lightyellow{
+  background-color: lightyellow;
+}
+.special{
+  height: 30vh
+}
+
+.scrollingContent p{
+  margin-bottom: 200px;
+}
+.scrollingContent p:last-child{
+  margin-bottom: 0px;
+} */
