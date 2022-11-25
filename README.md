@@ -4,7 +4,13 @@ Hi! I am Jyoti and in this repository I will develop my work for the [Critical D
 
 ### My work
 
-Among other things, I will link to Coding Exercises and Projects:
+Main Projects:
+
+- [ZINE PROJECT](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/projects/zine-project)
+- [DATA STORY](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/projects/data-story)
+
+
+Coding Exercises:
 
 - [coding foundation](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/coding-exercises/1-coding-foundation)
 - [form data plain js](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/coding-exercises/2-form-data-plain-js)
@@ -14,6 +20,3 @@ Among other things, I will link to Coding Exercises and Projects:
 - [mastering transitions](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/coding-exercises/6-Mastering-Transitions)
 - [line exercise](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/coding-exercises/7-line-exercise)
 - [line to map start](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/coding-exercises/8-line-to-map-start)
-
-- [ZINE PROJECT](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/projects/zine-project)
-- [DATA STORY](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/projects/data-story)
