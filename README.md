@@ -6,8 +6,8 @@ Hi! I am Jyoti and in this repository I will develop my work for the [Critical D
 
 Main Projects:
 
-- [ZINE PROJECT](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/projects/zine-project)
 - [DATA STORY](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/projects/data-story)
+- [ZINE PROJECT](https://github.com/koapushjin/Spring2021-Critical-Data-and-Visualization/tree/main/projects/zine-project)
 
 
 Coding Exercises:
